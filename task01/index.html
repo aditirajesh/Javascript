@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>To-do List</title>
+        <link href="/Users/aditirajesh/Desktop/program_files/Presidio/Javascript/task01/stylesheet.css" rel="stylesheet">
+    </head>
+
+    <header>
+        <h1>To Do List🚨 </h1>
+    </header>
+
+    <body>
+        <div class="todolist">
+            <ul id="tasklist">
+                <li>1. Make breakfast - eggs and coffeee</li>
+                <li>2. Go to the gym</li>
+                <li>3. Finish college report and submit form</li>
+                <li>4. Learn Javascript and finish assignments</li>
+                <li>5. Go to dance class</li>
+                <li>6. Go shopping for farewell</li>
+            </ul>
+        </div>
+
+        <div class="add_items">
+            <h2>Add items</h2>
+            <input type="text" id="additem" placeholder="Enter task">
+            <button type="button" class="add_button" onclick="addtolist()">Add</button>
+
+        <br>
+
+        <div class="update_items">
+            <h2>Update items</h2>
+            <input type="text" id="itemno" placeholder="Enter task number">
+            <input type="text" id="updatedtext" placeholder="Update task">
+            <button type="button" class="update_button" onclick="updatetolist()">Update</button>
+        </div>
+
+        <div class="delete_items">
+            <h2>Delete items</h2>
+            <input type="text" id="del_itemno" placeholder="Enter task number">
+            <button type="button" class="update_button" onclick="deletefromlist()">Delete</button>
+        </div>
+
+
+
+        <script src="todolist.js"></script>
+    </body>
+</html>

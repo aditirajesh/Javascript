@@ -1,0 +1,15 @@
+button {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+li {
+    list-style-type: none;
+    cursor:pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+  }
