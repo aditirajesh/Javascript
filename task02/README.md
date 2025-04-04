@@ -26,4 +26,4 @@
 
 ### Division by Zero Error:
 
-![](div_error.png)
+![](div_err.png)
