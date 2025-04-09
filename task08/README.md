@@ -5,4 +5,7 @@
      - Maintain a consistent UI and state across route changes.
 
 ## Output:
-![](task9_output.mov)
+
+
+https://github.com/user-attachments/assets/8488be87-ee56-4299-a308-e1c413c64727
+
